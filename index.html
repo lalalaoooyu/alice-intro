@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alice Yu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <header class="header">
+      <a href="/" class="logo">Alice Yu</a>
+      <nav class="nav">
+        <a href="#about" data-i18n="nav.about">紹介</a>
+        <a href="#projects" data-i18n="nav.projects">プロジェクト</a>
+        <a href="#experience" data-i18n="nav.experience">経歴</a>
+        <a href="#contact" data-i18n="nav.contact">連絡先</a>
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="ja">日</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="zh">中</button>
+        </div>
+        <button class="theme-toggle" aria-label="Toggle theme">
+          <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <img src="IMG_7804.JPG" alt="Alice Yu" class="hero-avatar">
+      <p class="hero-label" data-i18n="hero.label">アプリケーション・デベロッパー</p>
+      <h1 class="hero-title" data-i18n="hero.title">効率を最優先に。<br>新しい技術を受け入れる。</h1>
+      <p class="hero-desc" data-i18n="hero.desc">アプリケーション・デベロッパー、東京。</p>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <h2 class="section-title" data-i18n="about.title">自己紹介</h2>
+      <div class="section-content">
+        <p data-i18n="about.p1">こんにちは、Aliceです。<br>クライアント企業のAI導入と業務プロセスの自動化を推進しています。<br>IBMでは複数のプロジェクトをリードし、新しい技術の活用と業務効率の向上を支援してきました。</p>
+        <p data-i18n="about.p2">フレンドリー、シンプル、効率を大切にしています。<br>プライベートではAIと投資を研究中。日本語、英語、中国語を話します。興味があればぜひコーヒーチャットしましょう。</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <h2 class="section-title" data-i18n="skills.title">スキル</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3 data-i18n="skills.dev">開発</h3>
+          <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>HTML / CSS / JS</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3 data-i18n="skills.cloud">クラウド & DevOps</h3>
+          <ul>
+            <li>AWS</li>
+            <li>Docker</li>
+            <li>Linux CLI</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3 data-i18n="skills.strengths">強み</h3>
+          <ul>
+            <li data-i18n="skills.s1">AIツール & 自動化</li>
+            <li data-i18n="skills.s2">中日英トリリンガル</li>
+            <li data-i18n="skills.s3">美的感覚 & 判断力</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <h2 class="section-title" data-i18n="projects.title">プロジェクト</h2>
+      <div class="projects-list">
+        <a href="#" class="project-item">
+          <div class="project-info">
+            <h3 data-i18n="projects.p1.title">CI/CDパイプライン保守運用</h3>
+            <p class="project-date">2025.6 &mdash; 2025.12</p>
+            <p data-i18n="projects.p1.desc">CI/CDパイプラインの構築・保守運用を担当。安定的なデプロイ運用を実現。</p>
+          </div>
+          <span class="project-arrow">&rarr;</span>
+        </a>
+        <a href="#" class="project-item">
+          <div class="project-info">
+            <h3 data-i18n="projects.p2.title">AI検証 & 業務プロセス自動化</h3>
+            <p class="project-date">2026.1 &mdash; <span data-i18n="experience.present">現在</span></p>
+            <p data-i18n="projects.p2.desc">クライアント企業の社内AI導入を支援し、自チームの業務プロセス自動化を推進。</p>
+          </div>
+          <span class="project-arrow">&rarr;</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <h2 class="section-title" data-i18n="experience.title">経歴</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2025.4 &mdash; <span data-i18n="experience.present">現在</span></div>
+          <div class="timeline-content">
+            <h3>Application Developer</h3>
+            <p class="timeline-company">IBM</p>
+            <p class="timeline-desc" data-i18n="experience.desc1">CI/CDパイプラインの構築、クライアント向けAIソリューションの検証、社内業務プロセスの自動化を担当。</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2021 &mdash; 2025.3</div>
+          <div class="timeline-content">
+            <h3 data-i18n="experience.role2">法学士（法と情報コース）</h3>
+            <p class="timeline-company" data-i18n="experience.school">明治大学 法学部</p>
+            <p class="timeline-desc" data-i18n="experience.desc2">法律とテクノロジーの交差点で学び、論理的思考と情報システムの基盤を構築。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <h2 class="section-title" data-i18n="contact.title">連絡先</h2>
+      <div class="contact-content">
+        <p data-i18n="contact.desc">お気軽にご連絡ください。興味深い会話やコラボレーションをいつでも歓迎しています。</p>
+        <div class="contact-links">
+          <a href="mailto:lalalaoooyu@gmail.com" class="contact-link">lalalaoooyu@gmail.com</a>
+          <a href="https://github.com/lalalaoooyu" class="contact-link" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/jiatian-yu-7223b9232/" class="contact-link" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2026 Alice Yu</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
