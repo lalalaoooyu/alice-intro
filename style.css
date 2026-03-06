@@ -256,6 +256,15 @@ ul {
 }
 
 /* --- Projects --- */
+.projects-subtitle {
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
+}
+
 .projects-list {
   display: flex;
   flex-direction: column;
