@@ -181,7 +181,14 @@ ul {
   height: 96px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
+}
+
+.hero-name {
+  font-size: clamp(24px, 4vw, 32px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-sm);
 }
 
 .hero-label {
@@ -414,12 +421,49 @@ ul {
     padding: 0 var(--space-md);
   }
 
+  .header {
+    padding: var(--space-md) 0;
+  }
+
   .nav > a {
     display: none;
   }
 
+  .nav {
+    gap: var(--space-sm);
+  }
+
+  .lang-btn {
+    font-size: 10px;
+    padding: 3px 6px;
+  }
+
   .hero {
-    padding: var(--space-xl) 0 var(--space-lg);
+    padding: var(--space-lg) 0;
+  }
+
+  .hero-avatar {
+    width: 72px;
+    height: 72px;
+    margin-bottom: var(--space-md);
+  }
+
+  .hero-label {
+    font-size: 12px;
+    margin-bottom: var(--space-sm);
+  }
+
+  .hero-title {
+    font-size: 28px;
+    margin-bottom: var(--space-md);
+  }
+
+  .hero-desc {
+    font-size: 14px;
+  }
+
+  .section {
+    padding: var(--space-lg) 0;
   }
 
   .skills-grid {
@@ -435,5 +479,13 @@ ul {
   .contact-links {
     flex-direction: column;
     gap: var(--space-md);
+  }
+
+  .project-info h3 {
+    font-size: 14px;
+  }
+
+  .project-info p {
+    font-size: 13px;
   }
 }
